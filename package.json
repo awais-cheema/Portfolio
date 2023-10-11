@@ -2,7 +2,7 @@
   "name": "developer-portfolio-starter-code",
   "homepage": "https://awais-cheema.github.io/Awais-portfolio.io",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
