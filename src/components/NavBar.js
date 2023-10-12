@@ -246,7 +246,7 @@ const NavBar = () => {
             {/* GitHub */}
 
             <motion.a
-              href="/"
+              href="https://github.com/awais-cheema"
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
