@@ -228,7 +228,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-10 mr-3 dark:fill-light sm:mx-1"
+              className="w-10 mr-3 bg-dark dark:bg-light  sm:mx-1"
             >
               <TwitterIcon />
             </motion.a>
