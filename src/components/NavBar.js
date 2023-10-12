@@ -142,7 +142,7 @@ const NavBar = () => {
           </motion.a>
           {/* Linked In */}
 
-          <motion.a
+          {/* <motion.a
             href="/"
             target={"_blank"}
             whileHover={{ y: -2 }}
@@ -150,10 +150,10 @@ const NavBar = () => {
             className="w-6 mx-3 bg-light rounded-full"
           >
             <PinterestIcon />
-          </motion.a>
+          </motion.a> */}
           {/* Pinterest */}
 
-          <motion.a
+          {/* <motion.a
             href="/"
             target={"_blank"}
             whileHover={{ y: -2 }}
@@ -161,7 +161,7 @@ const NavBar = () => {
             className="w-6 ml-3 mr-3"
           >
             <DribbbleIcon />
-          </motion.a>
+          </motion.a> */}
           {/* Dribble */}
 
           <button
@@ -239,7 +239,7 @@ const NavBar = () => {
             </motion.a>
             {/* Linked In */}
 
-            <motion.a
+            {/* <motion.a
               href="/"
               target={"_blank"}
               whileHover={{ y: -2 }}
@@ -247,10 +247,10 @@ const NavBar = () => {
               className="w-6 mx-3 bg-light rounded-full"
             >
               <PinterestIcon />
-            </motion.a>
+            </motion.a> */}
             {/* Pinterest */}
 
-            <motion.a
+            {/* <motion.a
               href="/"
               target={"_blank"}
               whileHover={{ y: -2 }}
@@ -258,7 +258,7 @@ const NavBar = () => {
               className="w-6 ml-3 mr-3"
             >
               <DribbbleIcon />
-            </motion.a>
+            </motion.a> */}
             {/* Dribble */}
 
             <button
