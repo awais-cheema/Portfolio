@@ -115,12 +115,12 @@ const NavBar = () => {
               className="mx-4 "
               
             />
-            <CustomLink
+            {/* <CustomLink
               href="/articles"
               title="Articles"
               className="ml-4 "
               
-            />
+            /> */}
           </nav>
 
           <nav className="flex items-center justify-center flex-wrap">
