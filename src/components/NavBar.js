@@ -114,7 +114,7 @@ const NavBar = () => {
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            className="w-8 mr-3 dark:fill-light"
+            className="w-7 mr-3 dark:fill-light"
           >
             <TwitterIcon />
           </motion.a>
@@ -125,7 +125,7 @@ const NavBar = () => {
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            className="w-6 mx-3"
+            className="w-7 mx-3"
           >
             <GithubIcon />
           </motion.a>
@@ -136,7 +136,7 @@ const NavBar = () => {
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            className="w-10 mx-3"
+            className="w-6 mx-3"
           >
             <LinkedInIcon />
           </motion.a>
