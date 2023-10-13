@@ -235,7 +235,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 sm:mr-1"
+              className="w-6 mx-3 sm:-mr-1 dark:sm:mr-1" 
             >
               <LinkedInIcon />
             </motion.a>
@@ -246,7 +246,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-[25px] mx-3 sm:fill-light dark:bg-dark dark:rounded-lg sm:mr-1"
+              className="w-[25px] mx-3 sm:w-[40px] sm:dark:w-[25px] dark:bg-dark dark:rounded-lg sm:-mr-2 dark:sm:mr-0" 
             >
               <InstagramIcon />
             </motion.a>
