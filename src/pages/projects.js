@@ -5,13 +5,16 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/TerraCyborg.png";
+import project2 from "../../public/images/projects/Travelley UK.png";
+import project3 from "../../public/images/projects/GetSetTravelUs.png";
+import project4 from "../../public/images/projects/BestCustomPackaging.png";
 import HireMe from "@/styles/HireMe";
 import TransitionEffect from "@/components/TransitionEffect";
 
 const FeaturedProject = ({ type, title, summary, img, link, github }) => {
   return (
-    <article className="w-full flex items-center justify-between rounded-br-2xl relative rounded-3xl border border-solid border-dark bg-light shadow-2xl p-12 dark:bg-dark dark:border-light
+    <article className="w-full flex items-center justify-between rounded-br-2xl relative rounded-3xl border border-solid border-dark shadow-2xl p-12 dark:bg-dark dark:border-light bg-gray-300
     lg:flex-col lg:p-8 xs:rounded-2xl xs:rounded-br-3xl xs:p-4 xs:mb-14 sm:mb-14 md:mb-14 lg:mb-14 xl:mb-14
     
     ">
@@ -53,14 +56,14 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
         <p className="my-2 font-medium text-dark dark:text-light 
         sm:text-sm">{summary}</p>
         <div className="mt-2 flex items-center">
-          <Link href={github} target="_blank" className="w-10">
+          {/* <Link href={github} target="_blank" className="w-10">
             {" "}
             <GithubIcon />{" "}
-          </Link>
+          </Link> */}
           <Link
             href={link}
             target="_blank"
-            className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:text-dark dark:bg-primaryDark dark:hover:text-dark dark:hover:bg-light 
+            className="ml-0 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:text-dark dark:bg-primaryDark dark:hover:text-dark dark:hover:bg-light 
             sm:px-4 sm:text-base
             "
           >
@@ -75,7 +78,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
 const Project = ({ title, type, img, link, github }) => {
   return (
     <article
-      className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 
+      className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-gray-300 p-6 
     relative dark:bg-dark dark:border-light xs:p-4"
     >
       <div className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark rounded-br-3xl dark:bg-light
@@ -111,9 +114,9 @@ const Project = ({ title, type, img, link, github }) => {
           >
             Visit
           </Link>
-          <Link href={github} target="_blank" className="w-8 md:w-6">
+          {/* <Link href={github} target="_blank" className="w-8 md:w-6">
             <GithubIcon />
-          </Link>
+          </Link> */}
         </div>
       </div>
     </article>
@@ -138,14 +141,12 @@ const Projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-0 lg:gap-x-8 md:px-0 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                    local currency."
+                title="TerraCyborg"
+                summary="Terra Cyborg is a project with a mission to democratize AI-powered image generation. It aims to make the creative and innovative potential of artificial intelligence accessible to individuals from all walks of life."
                 img={project1}
-                link="/"
+                link="https://terracyborg.com/"
                 type="Featured Project"
-                github="/"
+                github="/"                      
               />
             </div>
             <div className="col-span-6 sm:col-span-12 xl:mr-6 xl:mb-10 lg:mr-6 lg:mb-10 md:mb-10 sm:!mr-0 xs:!mr-0
@@ -153,13 +154,11 @@ const Projects = () => {
             {/* // xl:mr-4 lg:mr-4 md:mr-2  sm:mr-2
             // xl:mb-10 lg:mb-10 md:mb-10  sm:mb-10 */}
               <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                    local currency."
-                img={project1}
-                link="/"
-                type="Featured Project"
+                title="Travelley"
+                summary=""
+                img={project2}
+                link="https://www.travelley.co.uk/"
+                type="Featured Project"        
                 github="/"
               />
             </div>
@@ -169,26 +168,34 @@ const Projects = () => {
              xl:mb-4 lg:mb-4 md:mb-2  sm:mb-2 */}
 
               <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                    local currency."
-                img={project1}
-                link="/"
-                type="Featured Project"
+                title="GetSetTravel"
+                summary=""
+                img={project3}      
+                link="https://getsettravel.us/"
+                type="Featured Project"        
                 github="/"
               />
             </div>
 
             <div className="col-span-12">
               <FeaturedProject
+                title="BestCustomPackaging"
+                summary="BestCustomPackaging is an online platform dedicated to providing a captivating array of custom packaging solutions. This site is a hub for innovative designs and impeccable craftsmanship, offering businesses and individuals the opportunity to elevate their brand's packaging to a whole new level."
+                img={project4}          
+                link="https://bestcustompackaging.co.uk/"
+                type="Featured Project"   
+                github="/"
+              />
+            </div>
+            {/* <div className="col-span-6 sm:col-span-12 xl:mr-6 xl:mb-10 lg:mr-6 lg:mb-10 md:mb-10 sm:!mr-0 xs:!mr-0">
+              <Project
                 title="Crypto Screener Application"
                 summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
                     It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
                     local currency."
                 img={project1}
                 link="/"
-                type="Featured Project"
+                type="Featured Project" 
                 github="/"
               />
             </div>
@@ -203,19 +210,7 @@ const Projects = () => {
                 type="Featured Project"
                 github="/"
               />
-            </div>
-            <div className="col-span-6 sm:col-span-12 xl:mr-6 xl:mb-10 lg:mr-6 lg:mb-10 md:mb-10 sm:!mr-0 xs:!mr-0">
-              <Project
-                title="Crypto Screener Application"
-                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                    It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                    local currency."
-                img={project1}
-                link="/"
-                type="Featured Project"
-                github="/"
-              />
-            </div>
+            </div> */}
           </div>
         </Layout>
         <HireMe />
