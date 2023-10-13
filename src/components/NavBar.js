@@ -147,7 +147,7 @@ const NavBar = () => {
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            className="w-8 mx-3 bg-light rounded-full"
+            className="w-8 mx-3 " 
           >
             <InstagramIcon />
           </motion.a>
@@ -211,7 +211,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-10 mr-3 dark:fill-light"
+              className="w-7 mr-3  sm:mr-0"
             >
               
               <TwitterIcon />
@@ -223,7 +223,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-7 mx-3"
+              className="w-6 mx-3 bg-light rounded-full dark:bg-dark  sm:mr-1"
             >
               <GithubIcon />
             </motion.a>
@@ -234,7 +234,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3"
+              className="w-6 mx-3 sm:mr-1"
             >
               <LinkedInIcon />
             </motion.a>
@@ -245,7 +245,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-8 mx-3 bg-light rounded-full"
+              className="w-[25px] mx-3 dark:bg-dark dark:rounded-lg sm:mr-1"
             >
               <InstagramIcon />
             </motion.a>
@@ -256,12 +256,12 @@ const NavBar = () => {
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            className="w-8 ml-3 mr-3"
+            className="w-8 mx-3 sm:mr-1"
           >
             <FacebookIcon />
           </motion.a>
           {/* Facebook */}
-            {/* Dribble */}
+          
 
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
