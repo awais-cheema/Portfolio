@@ -213,6 +213,7 @@ const NavBar = () => {
               whileTap={{ scale: 0.9 }}
               className="w-10 mr-3 dark:fill-light"
             >
+              
               <TwitterIcon />
             </motion.a>
             {/* Twitter */}
