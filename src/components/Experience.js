@@ -67,7 +67,7 @@ const Experience = () => {
           <Details
             position="WordPress Front-End Developer"
             company="Wilsol Tech"
-            companyLink="www.wilsol.tech"
+            companyLink="https://www.wilsol.tech"
             time="2022-2023"
             address="Sheranwala Complex Wapda Town, LHR."
             work="I specialize in creating visually appealing and user-friendly WordPress websites at Wilsol Tech. My responsibilities include theme customization, front-end development, and seamless integration of plugins to optimize performance and user experience. My work consistently enhances our clients' digital presence."
@@ -76,7 +76,7 @@ const Experience = () => {
           <Details
             position="Billing Officer"
             company="Lal Qila Restaurant, LHR"
-            companyLink="www.lalqila.com"
+            companyLink="https://www.lalqila.com"
             time="2022-2022"
             address="As a Billing Officer at Lalqila Restaurant Lahore, I efficiently managed financial transactions and contributed to the smooth operation of the establishment. My responsibilities included accurately processing customer bills, handling payments, and providing exceptional customer service."
           />
