@@ -59,7 +59,7 @@ export default function Home() {
 
                 {/* Email Button */}
                 <Link
-                  href="mailto:awaisashraf420000@gmail.com"
+                  href="mailto:imawaisashraf@gmail.com"
                   target={"_blank"}
                   // className='ml-4 text-lg font-medium capitalize text-dark underline'
                   className="flex items-center bg-light text-dark p-2.5 px-8 rounded-lg text-lg font-semibold hover:bg-dark hover:text-light border-2 border-solid border-dark hover:border-dark ml-2 dark:hover:border-light md:text-base "
