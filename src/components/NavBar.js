@@ -246,7 +246,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-[25px] mx-3 sm:bg-light dark:bg-dark dark:rounded-lg sm:mr-1"
+              className="w-[25px] mx-3 sm:fill-light dark:bg-dark dark:rounded-lg sm:mr-1"
             >
               <InstagramIcon />
             </motion.a>
