@@ -19,7 +19,7 @@ const Details = ({ position, company, companyLink, time, address, work }) => {
         <h3 className="capitalize font-bold text-2xl sm:text-xl xs:text-lg">
           {position}&nbsp;
           <a
-            href={{companyLink}}
+            href={companyLink}
             target="_blank"
             className="text-primary dark:text-primaryDark capitalize"
           >
@@ -58,7 +58,7 @@ const Experience = () => {
           <Details
             position="Front-End Web Developer"
             company="Wilsol Tech"
-            companyLink="www.wilsol.tech"
+            companyLink="https://www.wilsol.tech"
             time="2023-Present"
             address="Sheranwala Complex Wapda Town, LHR."
             work="As a Front-End React Developer at Wilsol Tech, I have been instrumental in creating dynamic and responsive web applications that engage and delight users. Leveraging React, Tailwind CSS, HTML, CSS, and JavaScript , I've played a pivotal role in crafting cutting-edge user interfaces that align with industry best practices and elevate the digital presence of our clients."
