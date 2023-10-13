@@ -211,6 +211,7 @@ const NavBar = () => {
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
+              
               className="w-7 mr-3 sm:fill-light sm:dark:fill-dark sm:mr-0"
             >
               
