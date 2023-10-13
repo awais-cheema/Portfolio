@@ -4,7 +4,7 @@ import Logo from "./Logo";
 import { useRouter } from "next/router";
 import {
   TwitterIcon,
-  DribbbleIcon,
+  FacebookIcon,
   GithubIcon,
   LinkedInIcon,
   InstagramIcon,
@@ -143,7 +143,7 @@ const NavBar = () => {
           {/* Linked In */}
 
           <motion.a
-            href="/"
+            href="https://instagram.com/awais.__.ashraf?igshid=MzNlNGNkZWQ4Mg=="
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -153,16 +153,16 @@ const NavBar = () => {
           </motion.a>
           {/* Instagram */}
 
-          {/* <motion.a
-            href="/"
+          <motion.a
+            href="https://www.facebook.com/owais.ashraf49?mibextid=ZbWKwL"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
-            className="w-6 ml-3 mr-3"
+            className="w-8 ml-3 mr-3"
           >
-            <DribbbleIcon />
-          </motion.a> */}
-          {/* Dribble */}
+            <FacebookIcon />
+          </motion.a>
+          {/* Facebook */}
 
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
@@ -241,7 +241,7 @@ const NavBar = () => {
             {/* Linked In */}
 
             <motion.a
-              href="/"
+              href="https://instagram.com/awais.__.ashraf?igshid=MzNlNGNkZWQ4Mg=="
               target={"_blank"}
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
@@ -251,15 +251,16 @@ const NavBar = () => {
             </motion.a>
             {/* Instagram */}
 
-            {/* <motion.a
-              href="/"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 ml-3 mr-3"
-            >
-              <DribbbleIcon />
-            </motion.a> */}
+            <motion.a
+            href="https://www.facebook.com/owais.ashraf49?mibextid=ZbWKwL"
+            target={"_blank"}
+            whileHover={{ y: -2 }}
+            whileTap={{ scale: 0.9 }}
+            className="w-8 ml-3 mr-3"
+          >
+            <FacebookIcon />
+          </motion.a>
+          {/* Facebook */}
             {/* Dribble */}
 
             <button
