@@ -8,10 +8,13 @@ import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/styles/HireMe";
 import LightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import TransitionEffect from "@/components/TransitionEffect";
+import useThemeSwitcher from "@/components/hooks/useThemeSwitcher";
+
 
 // const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const [mode, setMode] = useThemeSwitcher();
   return (
     <>
       <Head>
@@ -76,7 +79,11 @@ export default function Home() {
         <div
         className="absolute right-8 bottom-8 inline-block w-24 lg:hidden md:hidden"
         >
-          <Image src={LightBulb} alt="Awais Ashraf" className="w-full h-auto" />
+          <Image 
+          onClick={() => setMode(mode === "light" ? "dark" : "light")}
+          src={LightBulb} 
+          alt="Awais Ashraf" 
+          className="w-full h-auto cursor-pointer" />
         </div>
 
       </main>
