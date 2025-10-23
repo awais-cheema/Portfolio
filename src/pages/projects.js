@@ -6,9 +6,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/projects/My Umrah Travel.png";
-import project2 from "../../public/images/projects/Travelley UK.png";
+import project2 from "../../public/images/projects/Escapes world wide.png";
 import project3 from "../../public/images/projects/Mrizz.png";
-import project4 from "../../public/images/projects/Escapes world wide.png";
+import project4 from "../../public/images/projects/Travelley UK.png";
 import HireMe from "@/styles/HireMe";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -154,10 +154,10 @@ const Projects = () => {
             {/* // xl:mr-4 lg:mr-4 md:mr-2  sm:mr-2
             // xl:mb-10 lg:mb-10 md:mb-10  sm:mb-10 */}
               <Project
-                title="Travelley"
+                title="Escapes World Wide"
                 summary=""
                 img={project2}
-                link="https://www.travelley.co.uk/"
+                link="https://escapesworldwide.co.uk/"
                 type="Featured Project"        
                 github="/"
               />
@@ -168,10 +168,10 @@ const Projects = () => {
              xl:mb-4 lg:mb-4 md:mb-2  sm:mb-2 */}
 
               <Project
-                title="GetSetTravel"
+                title="Mrizz - Fashion Brand"
                 summary=""
                 img={project3}      
-                link="https://getsettravel.us/"
+                link="https://mrizz.pk/"
                 type="Featured Project"        
                 github="/"
               />
@@ -179,10 +179,10 @@ const Projects = () => {
 
             <div className="col-span-12">
               <FeaturedProject
-                title="BestCustomPackaging"
-                summary="BestCustomPackaging is an online platform dedicated to providing a captivating array of custom packaging solutions. This site is a hub for innovative designs and impeccable craftsmanship, offering businesses and individuals the opportunity to elevate their brand's packaging to a whole new level."
+                title="Travelley"
+                summary="Travelley is a UK-based travel agency dedicated to creating unforgettable travel experiences. Our platform offers personalized trip planning, exclusive deals, and expert guidance — helping travelers explore the world with ease, comfort, and confidence."
                 img={project4}          
-                link="https://bestcustompackaging.co.uk/"
+                link="https://www.travelley.co.uk/"
                 type="Featured Project"   
                 github="/"
               />
