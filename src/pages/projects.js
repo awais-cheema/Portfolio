@@ -141,10 +141,10 @@ const Projects = () => {
           <div className="grid grid-cols-12 gap-24 gap-y-32 xl:gap-0 lg:gap-x-8 md:px-0 md:gap-y-24 sm:gap-x-0">
             <div className="col-span-12">
               <FeaturedProject
-                title="TerraCyborg"
-                summary="Terra Cyborg is a project with a mission to democratize AI-powered image generation. It aims to make the creative and innovative potential of artificial intelligence accessible to individuals from all walks of life."
+                title="My Umrah Travel"
+                summary="My Umrah Travel is a UK-based company dedicated to making Umrah and Hajj accessible and stress-free. We provide reliable guidance and tailored packages so pilgrims can focus on their spiritual journey while we handle the details."
                 img={project1}
-                link="https://terracyborg.com/"
+                link="https://myumrahtravel.co.uk/"
                 type="Featured Project"
                 github="/"                      
               />
