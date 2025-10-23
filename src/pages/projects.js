@@ -5,10 +5,10 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/TerraCyborg.png";
+import project1 from "../../public/images/projects/My Umrah Travel.png";
 import project2 from "../../public/images/projects/Travelley UK.png";
-import project3 from "../../public/images/projects/GetSetTravelUs.png";
-import project4 from "../../public/images/projects/BestCustomPackaging.png";
+import project3 from "../../public/images/projects/Mrizz.png";
+import project4 from "../../public/images/projects/Escapes world wide.png";
 import HireMe from "@/styles/HireMe";
 import TransitionEffect from "@/components/TransitionEffect";
 
